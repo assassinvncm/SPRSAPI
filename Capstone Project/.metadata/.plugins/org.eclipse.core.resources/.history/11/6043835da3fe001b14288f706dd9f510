@@ -1,0 +1,5 @@
+package com.fmt.wbs.config;
+
+public class WebSocketConfig {
+
+}

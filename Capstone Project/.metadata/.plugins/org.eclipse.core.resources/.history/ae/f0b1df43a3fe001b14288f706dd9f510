@@ -1,0 +1,5 @@
+package com.fmt.wbs.controller;
+
+public class GreetingController {
+
+}
