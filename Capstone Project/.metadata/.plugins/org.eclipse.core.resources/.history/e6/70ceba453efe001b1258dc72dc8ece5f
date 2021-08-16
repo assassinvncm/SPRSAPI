@@ -1,0 +1,12 @@
+#Config connect mssql
+spring.datasource.url=jdbc:sqlserver://localhost;databaseName=SPRS
+spring.datasource.username=sa
+spring.datasource.password=P@ssw0rd99
+spring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.show-sql=false
+spring.jpa.hibernate.ddl-auto=create
+
+# App Properties
+bezkoder.app.jwtSecret= bezKoderSecretKey
+bezkoder.app.jwtExpirationMs= 86400000

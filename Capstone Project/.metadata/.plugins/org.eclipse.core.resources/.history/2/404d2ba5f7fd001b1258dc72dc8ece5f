@@ -1,0 +1,5 @@
+package com.fmt.jwt.config;
+
+public class WebSecurityConfig {
+
+}

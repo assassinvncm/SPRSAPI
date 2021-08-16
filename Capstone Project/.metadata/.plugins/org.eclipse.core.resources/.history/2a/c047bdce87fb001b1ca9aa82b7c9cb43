@@ -1,0 +1,5 @@
+package com.fmt.action;
+
+public class SRPSHelloAction {
+
+}

@@ -1,0 +1,5 @@
+package com.fmt.repositories;
+
+public interface RoleRepository {
+
+}

@@ -1,0 +1,19 @@
+package com.fmt.action;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import com.fmt.form.SRPSHelloWorld;
+
+@RestController
+public class SRPSHelloAction {
+	@RequestMapping("/")
+    public List<SRPSHelloWorld> getEmployees() 
+    {
+      List<SRPSHelloWorld> employeesList = new ArrayList<SRPSHelloWorld>();
+      employeesList.add(new SRPSHelloWorld("Hello world"));
+      return employeesList;
+    }
+}

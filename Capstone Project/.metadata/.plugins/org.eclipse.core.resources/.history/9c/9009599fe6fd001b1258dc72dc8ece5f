@@ -1,0 +1,5 @@
+package com.fmt.enums;
+
+public enum ERole {
+
+}

@@ -1,0 +1,5 @@
+package com.fmt.jwt.controller;
+
+public class TestController {
+
+}
